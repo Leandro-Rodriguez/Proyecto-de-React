@@ -45,3 +45,14 @@ body {
   padding: 20px;
   text-align: center;
 }
+
+.product-image {
+  width: auto; /* Asegura que la imagen ocupe el ancho completo del contenedor */
+  max-height: 200px; /* Ajusta la altura de las imágenes a 200px */
+  object-fit: contain; /* Recorta la imagen para llenar el contenedor manteniendo su proporción */
+  padding: 10px;
+}
+
+.item-list-container h2 {
+  padding: 10px;
+}
