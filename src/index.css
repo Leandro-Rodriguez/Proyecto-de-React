@@ -15,12 +15,13 @@
 
 /* src/index.css */
 body {
-  background-color: #F8FEF4;
+  background-image: url("assets/fondo.jpg");
 }
 
 .navbar {
   background-color: #FF9934;
 }
+
 
 .nav-link {
   color: #000000;
@@ -29,11 +30,13 @@ body {
 .navbar-brand {
   color: #0f64d3;
   font-size: 1.5em;
+  font-weight: 700;
 }
 
 .cart-widget {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .badge {
@@ -44,15 +47,40 @@ body {
 .item-list-container {
   padding: 20px;
   text-align: center;
+  
 }
 
 .product-image {
-  width: auto; /* Asegura que la imagen ocupe el ancho completo del contenedor */
-  max-height: 200px; /* Ajusta la altura de las imágenes a 200px */
+width: 100%; /* Asegura que la imagen ocupe el ancho completo del contenedor */
+height: 220px; /* Ajusta la altura de las imágenes a 200px */
   object-fit: contain; /* Recorta la imagen para llenar el contenedor manteniendo su proporción */
   padding: 10px;
+  display: block;
+  margin: 0 auto;
+
 }
 
 .item-list-container h2 {
   padding: 10px;
+}
+
+.card {
+  padding: 2em;
+  flex-direction: column;
+  height: 450px;
+  width: 80%;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+
+.col-md-4 {
+  display: flex;
+  justify-content: center; /* Opcional: centra horizontalmente en el contenedor padre */
+  align-items: center; /* Centra verticalmente en el contenedor padre */
+}
+
+h2{
+  color: rgb(255, 255, 255);
+  text-shadow: black 1px 3px 1px;
 }

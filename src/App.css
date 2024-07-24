@@ -35,15 +35,20 @@
 
 .card {
   padding: 2em;
+  flex-direction: column;
+  height: 450px;
+  width: 100%;
+  text-align: center;
 }
+
 
 .read-the-docs {
   color: #888;
 }
 
 .product-image {
-  width: auto; /* Asegura que la imagen ocupe el ancho completo del contenedor */
-  max-height: 200px; /* Ajusta la altura de las imágenes a 200px */
+width: 250px; /* Asegura que la imagen ocupe el ancho completo del contenedor */
+height: 250px; /* Ajusta la altura de las imágenes a 200px */
   object-fit: contain; /* Recorta la imagen para llenar el contenedor manteniendo su proporción */
   padding: 10px;
 }
